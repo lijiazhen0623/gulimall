@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: gulimall-member
+  cloud:
+    nacos:
+      config:
+        server-addr: 139.196.27.155:8848
+        file-extension: yaml
