@@ -1,0 +1,16 @@
+server:
+  port: 12000
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 139.196.27.155:8848
+  application:
+    name: gulimall-thirdParty
+alibaba:
+  cloud:
+    access-key: 
+    secret-key: 
+    bucketName: ljz-gulimall #自定义配置，用于赋值
+    oss:
+      endpoint: oss-cn-shenzhen.aliyuncs.com
